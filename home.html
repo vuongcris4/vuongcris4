@@ -34,16 +34,20 @@
 
     <div id="charts">
         <div class="chart_element">
-            <div class="chart_subelement" style="display: flex; align-items: center;">
+            <div class="chart_subelement" style="display: flex; align-items: center; width:300px; flex-flow: column;">
                 <p style="font-size: 50px;">Bedroom</p>
+                <p id = "bedroom_str_temp" style="font-size: 40px; color: rgba(255, 99, 132, 1);">100 &deg;C</p>
+                <p id = "bedroom_str_lux" style="font-size: 40px; color: rgba(255, 205, 86, 1)">100 lux</p>
             </div>
             <canvas class="chart_subelement" id="bedroom_chart_temp"></canvas>
             <canvas class="chart_subelement" id="bedroom_chart_lux"></canvas>
         </div>
 
         <div class="chart_element">
-            <div class="chart_subelement" style="display: flex; align-items: center;">
+            <div class="chart_subelement" style="display: flex; align-items: center; width:300px; flex-flow: column;">
                 <p style="font-size: 50px;">Livingroom</p>
+                <p id = "livingroom_str_temp" style="font-size: 40px; color: rgba(255, 99, 132, 1);">100 &deg;C</p>
+                <p id = "livingroom_str_lux" style="font-size: 40px; color: rgba(255, 205, 86, 1)">100 lux</p>
             </div>
             <canvas class="chart_subelement" id="livingroom_chart_temp"></canvas>
             <canvas class="chart_subelement" id="livingroom_chart_lux"></canvas>
@@ -51,11 +55,23 @@
         
 
         <div class="chart_element">
-            <div class="chart_subelement" style="display: flex; align-items: center;">
+            <div class="chart_subelement" style="display: flex; align-items: center; width:300px; flex-flow: column;">
                 <p style="font-size: 50px;">Kitchen</p>
+                <p id = "kitchen_str_temp" style="font-size: 40px; color: rgba(255, 99, 132, 1);">100 &deg;C</p>
+                <p id = "kitchen_str_lux" style="font-size: 40px; color: rgba(255, 205, 86, 1)">100 lux</p>
             </div>
             <canvas class="chart_subelement" id="kitchen_chart_temp"></canvas>
             <canvas class="chart_subelement" id="kitchen_chart_lux"></canvas>
+        </div>
+
+        <div class="chart_element">
+            <div class="chart_subelement" style="display: flex; align-items: center; width:300px; flex-flow: column;">
+                <p style="font-size: 50px;">Gameroom</p>
+                <p id = "gameroom_str_temp" style="font-size: 40px; color: rgba(255, 99, 132, 1);">100 &deg;C</p>
+                <p id = "gameroom_str_lux" style="font-size: 40px; color: rgba(255, 205, 86, 1)">100 lux</p>
+            </div>
+            <canvas class="chart_subelement" id="gameroom_chart_temp"></canvas>
+            <canvas class="chart_subelement" id="gameroom_chart_lux"></canvas>
         </div>
     </div>
     
